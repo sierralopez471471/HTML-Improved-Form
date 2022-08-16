@@ -14,16 +14,16 @@
         <h2>Vacation Contest Sign-Up Form</h2>
         <form method="GET" action="results.html">
             <div>
-                <label for="firstname">Your First Name</label>
-                <input type="text" id="firstname" name="firstname">
-                <label for="lastname">Your Last Name</label>
-                <input type="text" id="lastname" name="lastname">
+                <label for="firstname">Your First Name <span class="required-field">*</span></label>
+                <input type="text" id="firstname" name="firstname" required>
+                <label for="lastname">Your Last Name <span class="required-field">*</span></label>
+                <input type="text" id="lastname" name="lastname" required>
             </div>
             <fieldset>
                 <legend>Your Contact Info</legend>
                 <div>
-                    <label for="email">Your Email</label>
-                    <input type="email" id="email" name="email">
+                    <label for="email">Your Email <span class="required-field">*</span></label>
+                    <input type="email" id="email" name="email" required>
                 </div>
                 <div>
                     <label for="address">Your Street Address</label>
