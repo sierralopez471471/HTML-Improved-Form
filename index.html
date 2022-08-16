@@ -14,10 +14,11 @@
         <h2>Vacation Contest Sign-Up Form</h2>
         <form method="GET" action="results.html">
             <div>
+                <!--required field asterisks and min/max restricitons-->
                 <label for="firstname">Your First Name <span class="required-field">*</span></label>
-                <input type="text" id="firstname" name="firstname" required>
+                <input type="text" id="firstname" name="firstname" required minlength="2" maxlength="35">
                 <label for="lastname">Your Last Name <span class="required-field">*</span></label>
-                <input type="text" id="lastname" name="lastname" required>
+                <input type="text" id="lastname" name="lastname" required minlength="2" maxlength="35">
             </div>
             <fieldset>
                 <legend>Your Contact Info</legend>
